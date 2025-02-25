@@ -1,69 +1,66 @@
-.container{
-    height: 250px;
-    width: 300px;
-     justify-self: center;
-     padding: 16px;
-     text-align: left;
-}
-.banner{
-    font-family:"baskerville old face regular",sans-serif;
-    position: absolute;
-    color: black;
-    top: 11px;
-    left: -12px;
-    padding: 4px 8px;
-    background-color: #f7e8ac; 
-    font-weight:bolder;
-    width: 125px;
-    height: 20px;
-    border-radius: 4px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    font-size: 14px;
-}
 .box{
-    position: relative;
-    width: 280px;
-    height: 260px;
-    border: 30;
+    color: rgb(50, 18, 190);
+    justify-self: right;
+    font-family: "bell-mt bold";
+    line-height: 5;
+}
+header{
+    font-size: large;
+    font-family: "bell mt regular",sans-serif;
+    background-color:#e26d5d;
+    color: #000000;
+    width:800px;
+    text-align: center;
+    border-radius: 10px;
+    height: 80px;
+}
+.links{
+    color: #060b0f; 
+    text-decoration:wavy;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px 80px;
+    background-color: #cab605b0;
+    border: 2px solid #3498db;
+    border-radius: 800px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.links:hover{
+    background-color: #e26d5d;
+    border-color: #000000;
 }
 body{
-    background-color: rgb(155, 155, 190);  
-    justify-self: center;
-    margin-top: 70px;
+ margin: 0px;
+ padding: 0;
+} 
+.background-image{
+    background-image: url('/bg.image.jpg');
+     background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
-img{
-    width: 380px;
-    height: 280px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-h2 span{
-    font-weight: bold;
-    color:#6e6d6d; 
-    font-size: medium; 
-}
-.content{
-    background-color: white;
-    width: 370px;
-    border: 20px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    height: 190px;
-    padding: 5px;
-    font-family:'baskerville old face regular',sans-serif;
-}
-h2{
-    position: relative;
-    top: 15px;
-    left: 10px;
-}
-p{
-    width: 320px;
-    position: relative;
-    top: 15px;
-    left: 10px;
-    font-weight: bolder;
-    font-size: medium;
-    line-height: 1.3;
-}
+.animation{
+    animation-name: slidein;
+    animation-duration: 2.5s;
+ }
+ 
+ /**keyframe**/
+ @keyframes slidein{
+   from{
+    margin-left: 100%;
+    width: 300%;
+   }
+ 
+   to{
+    margin-left: 0%;
+    width: 100%;
+   }
+ }
