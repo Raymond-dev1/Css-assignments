@@ -1,0 +1,134 @@
+body{
+    background-color:  #e9f1f0fa
+}
+.container{
+    font-family: "bell mt regular" sans-serif;
+    padding: 0px;
+}
+fieldset{
+    border: 0;
+    position: relative;
+    top: -230px;
+    right: 70px;
+    width:580px;
+    height: 650px;
+    background-color: white;
+    justify-self: right;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.sec-1{
+    display: grid;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        gap: 10px;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    font-family: "bell mt regular",sans-serif;
+    width: 580px;
+    height: 220px;
+    color: rgba(2, 5, 4, 0.897);
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+label,input{
+    font-family: "bell mt regular",sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 30px;
+    color: rgba(2, 5, 4, 0.897);
+    font-weight: bold;
+}
+input{
+    position:relative;
+    top: -10px;
+    height: 45px; 
+    width: 220px;
+    border: 1px;
+    box-shadow:   rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+label{
+    display: grid;
+    grid-template-rows: repeat(1fr,1fr);
+    grid-template-columns: repeat(1fr,1fr);
+    position: relative;
+    top: 10px;
+    font-size: smaller;
+}
+.input:hover,input:hover{
+    background-color:rgb(255, 255, 255);
+    border:2px solid  rgb(134, 235, 221);
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+input::placeholder{
+    text-align: center;
+    font-family: "baskerville old face regular",sans-serif;
+    font-weight: lighter;
+    color: rgba(94, 90, 90, 0.363)
+}
+h1{
+    color: black;
+    font-weight:800px;
+}
+.logo-section{
+    font-family: "baskerville old face regular",sans-serif;
+    width: 350px;
+    padding: 20px;
+    padding-right: -100px;
+    padding-left: 50px;
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+img{
+    width: 80px;
+    position: relative; 
+}
+.footer-note{
+    position:relative;
+    top: 190px;
+}
+p{
+    color: #04081385;
+    font-weight: bold;
+    line-height: 1.4 ;
+}
+form{
+    top: 20px;
+    padding: 10px;
+    justify-self: center;
+}
+.input{
+    font-family: "bell mt regular",sans-serif;
+    display: flex;
+    border:none;
+    flex-direction: column;
+    width: 220px;
+    height: 45px;
+    color: rgba(2, 5, 4, 0.897);
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+option{
+     color: black;
+     font-family: "baskerville old face regular",sans-serif;
+     background-color:  rgb(219, 231, 230);
+     font-weight: bold;
+     font-size:medium;
+}
+button{
+    font-family: "bell mt regular",sans-serif;
+    font-size: medium;
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(102, 197, 170);
+}
+

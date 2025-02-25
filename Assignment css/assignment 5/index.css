@@ -1,0 +1,250 @@
+body{
+    background-color: rgba(224, 226, 226, 0.685);
+}
+img{
+    width: 140px;
+    position: relative;
+    top: 12px;
+}
+.top-section{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 2px;
+    width: 1200;
+    border-bottom:2px solid rgba(0, 0, 0, 0.26) ;
+    color: black;
+    font-family: "bell mt regular",sans-serif;
+}
+h3{
+    font-family: "bell mt regular",sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 35px;
+}
+.clicks{
+    margin-left: 20px;
+    font-family: inherit;
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    bottom: 45px;
+    right: 20px;
+}
+.clicks:hover{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 2px;
+    font-size: small;
+}
+box{
+    display: flex;
+    justify-self: center;
+    padding:0px;
+    margin: 80px;
+    width: 650px;
+    height: 620px;
+    font-family: "garamond",sans-serif;
+}
+form{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 60px;
+    width: 63%;
+    background-color: rgb(255, 255, 255);
+}
+h4{
+    font-size: large;
+    color: white;
+    font-weight: lighter;
+}
+h2{
+    color: rgb(39, 51, 68);
+    font-family: "bell mt regular",sans-serif;
+    text-shadow:1px 3px 2px rgba(36, 35, 35, 0.247) ;
+    margin:-25px;
+    letter-spacing: 0.7px;
+    font-weight:light;
+    border-bottom: 1px solid rgba(80, 79, 79, 0.164);
+    width: 400px;
+}
+.texts{
+    color:rgb(0, 0, 0);
+    position: relative;
+    right:20px;
+    bottom: 50px;
+    padding: 70px;
+    margin: -75px;
+    height: 300px;
+}
+.info{
+    position: relative;
+    left: 25px;
+    font-size:18px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.sidebar{
+    font-family: "bell mt regular",sans-serif;
+    width: 35%;
+    padding: 40px;  
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(68, 125, 190);
+}
+.contents{
+    color: rgba(255, 255, 255, 0.774);
+    padding:3px;
+    width: 150px;
+    margin-top: -30px;
+    height: 610px;
+    font-size: 15px;
+    font-size: small;
+    font-weight: lighter;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.d-sign{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 20px;
+    right: 6px;
+    font-size:x-large;
+    font-weight: bold;
+}
+.basic-section{
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+    height: 235px;
+}
+.payment-section{
+    padding: 10px;
+    position:relative;
+    bottom: 25px;
+    right: 40px;
+}
+/* Custom Numbering List*/
+@counter-style custom-numbers {
+    system:numeric;
+    symbols: "②""①" "②""④""⑤""⑥""⑦""⑧""⑨""⑩";
+    suffix:  "  ";
+}
+.Numbering-list{
+    padding:80px ;
+    margin: 6px;
+    list-style: custom-numbers;
+}
+/*custom checklist*/
+@counter-style custom-checklist{
+    system:checklist;
+    symbols:"√""√""√";
+    suffix:"  "
+}
+.checkmark-list{
+    position: relative;
+    left: 7px;
+    padding: 5px;
+    line-height: 25px;
+    list-style:custom-checklist;
+}
+strong{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.link{
+    text-decoration: 1.5px rgba(255, 255, 255, 0.616) underline;
+}
+.quote-block{
+      border-top: 1px solid rgba(196, 193, 193, 0.719);
+      position: relative;
+      top: 23px;
+}
+.quote{
+    position:relative;
+    top:25px;
+    line-height: 18px;
+}
+.number{
+    font-size: 60px;
+    color: white;
+}
+.grid-item{
+    display: grid;
+    position: relative;
+    right: 50px;
+}
+input{
+    background-color: rgba(226, 226, 226, 0.445);
+    border: none;
+    border-radius: 3px;
+    height: 23px;
+    padding: 4px;
+    width: 420px;
+}
+label{
+    font-size: small;
+    padding: 5px;
+}
+.purchase-box{
+    width: 483px;
+    height: 146.1px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+.purchase{
+    position: relative;
+    top: 30px;
+}
+footer{
+    color: rgb(76, 87, 97);
+    padding: 10px;
+    font-size: small;
+    width: 250px;
+    text-align: left;
+    justify-self: center;
+    
+}
+.ft{
+    color: black;
+}
+.logo{
+    color: white;
+    background-color: rgb(173, 173, 171);
+    padding: 1px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 4px;
+    width: 90px;
+    justify-self: center;
+    text-align: center;
+    font-size: xx-small;
+}
+button{
+    background-color: rgb(39, 151, 123);
+    padding: 12px;
+    border-radius: 3px;
+    position: relative;
+    right: 9px;
+    bottom: 8px;
+    width: 425px;
+    border: none;
+    color: white;
+}
+.text{
+    font-size: medium;
+    font-weight: bold;
+}
+.main-footer{
+    font-size:x-small;
+    position:relative;
+    bottom: 70px;
+}
+.TOS{
+    color: rgb(41, 126, 196);
+}

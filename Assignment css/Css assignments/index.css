@@ -1,0 +1,66 @@
+.box{
+    color: rgb(50, 18, 190);
+    justify-self: right;
+    font-family: "bell-mt bold";
+    line-height: 5;
+}
+header{
+    font-size: large;
+    font-family: "bell mt regular",sans-serif;
+    background-color:#e26d5d;
+    color: #000000;
+    width:800px;
+    text-align: center;
+    border-radius: 10px;
+    height: 80px;
+}
+.links{
+    color: #060b0f; 
+    text-decoration:wavy;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px 80px;
+    background-color: #cab605b0;
+    border: 2px solid #3498db;
+    border-radius: 800px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.links:hover{
+    background-color: #e26d5d;
+    border-color: #000000;
+}
+body{
+ margin: 0px;
+ padding: 0;
+} 
+.background-image{
+    background-image: url('/bg.image.jpg');
+     background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.animation{
+    animation-name: slidein;
+    animation-duration: 2.5s;
+ }
+ 
+ /**keyframe**/
+ @keyframes slidein{
+   from{
+    margin-left: 100%;
+    width: 300%;
+   }
+ 
+   to{
+    margin-left: 0%;
+    width: 100%;
+   }
+ }
